@@ -83,6 +83,7 @@ main {
     margin-top: 10px;
     cursor: pointer;
     transition: background-color 0.33 ease;
+    display: inline-block;
 }
 
 .card button:hover {
@@ -135,7 +136,7 @@ form legend {
 input[type="text"],
 input[type="date"],
 input[type="number"] {
-    width: 100%;
+    
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -192,7 +193,24 @@ button:hover {
 }
 
 .quantidade {
-    display: inline-block;
-    width: 10px;
+    width: 60px;
+    margin-top: 20px;
+}
 
+.preco {
+    color: #109010;
+    font-weight: bold;
+}
+
+.adicione {
+    margin-left: 850px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0f0f0;
+    background-color: #79081c;
+    padding: 10px;
+    border-radius: 10px;
 }

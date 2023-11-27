@@ -6,6 +6,7 @@
         <title>Livraria</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script type="text/Javascript" src="script.js"></script>
     </head>
     <body>
         <header>
@@ -27,49 +28,64 @@
                     <img src="img/19532-515x800.jpg" alt="Livro 1">
                     <h2>Corte de Espinhos e Rosas</h2>
                     <p>Autor: Sarah J. Maas</p>
-                    <button>Comprar</button>
-                    <input type="number" name="quantidade" class="quantidade">
+                    <p class="preco">R$40,00</p>
+                    <button onclick="adicionar()">Comprar</button>
+                    <input type="number" id="quantidade1" class="quantidade" min="0">
                 </div>
 
                 <div class="card">
                     <img src="img/B00FACP8NC.01._SCLZZZZZZZ_SX500_.jpg" alt="Livro 2">
                     <h2>Trono de Vidro</h2>
                     <p>Autor: Sarah J. Maas</p>
-                    <button>Comprar</button>
+                    <p class="preco">R$40,00</p>
+                    <button onclick="adicionar()">Comprar</button>
+                    <input type="number" id="quantidade2" class="quantidade" min="0">
                 </div>
 
                 <div class="card">
                     <img src="img/41PHjMF81IL.jpg" alt="Livro 3">
                     <h2>Espada de Vidro</h2>
                     <p>Autor: Victoria Aveyard</p>
-                    <button>Comprar</button>
+                    <p class="preco">R$40,00</p>
+                    <button onclick="adicionar()">Comprar</button>
+                    <input type="number" id="quantidade3" class="quantidade" min="0">
                 </div>
 
                 <div class="card">
                     <img src="img/51kAYMwbQIL._SX342_BO1,204,203,200_.jpg" alt="Livro 3">
                     <h2>A Biblioteca da Meia-Noite</h2>
                     <p>Autor: Matt Haig</p>
-                    <button>Comprar</button>
+                    <p class="preco">R$40,00</p>
+                    <button onclick="adicionar()">Comprar</button>
+                    <input type="number" id="quantidade4" class="quantidade" min="0">
                 </div>
 
                 <div class="card">
                     <img src="img/B078Z42ZFQ_6ec7cb5e_cover.jpeg" alt="Livro 3">
                     <h2>É Assim que Acaba</h2>
                     <p>Autor: Colleen Roover</p>
-                    <button>Comprar</button>
+                    <p class="preco">R$40,00</p>
+                    <button onclick="adicionar()">Comprar</button>
+                    <input type="number" id="quantidade5" class="quantidade" min="0">
                 </div>
 
                 <div class="card">
                     <img src="img/51ABRx3d7GL._SX335_BO1,204,203,200_.jpg" alt="Livro 3">
                     <h2>Verity</h2>
                     <p>Autor: Colleen Roover</p>
-                    <button>Comprar</button>
+                    <p class="preco">R$40,00</p>
+                    <button onclick="adicionar()">Comprar</button>
+                    <input type="number" id="quantidade6" class="quantidade" min="0">
+                </div>
+
+                <div class="adicione">
+                    <a href="carrinho.html">Adicione ao carrinho!</a>
                 </div>
 
             </section>
         </main>
         <footer>
-            <p>&copy; 2023 Livraria Fantástica | Criado por Karyne F. Rossatto</p>
+            <p>&copy; 2023 Livraria Fantástica | Criado por Amanda Prigol, Karyne Furlan e Kayla Flach. </p>
         </footer>
     </body>
 </html>
