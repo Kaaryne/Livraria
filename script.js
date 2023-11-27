@@ -42,13 +42,20 @@ function adicionar6() {
     console.log(total);
 }
 
+var totalPagar = 0
+
 function carrinho() {
     
     for (let i = 0; i < produtos.length; i++) {
-        var totalPagar = totalPagar + produtos[i];
+        totalPagar = totalPagar + parseInt(produtos[i]);
     }
 
+    document.write(produtos + "<br>") ;
     document.write(totalPagar);
+    
+}
+
+function validar() { 
     
 }
 
