@@ -4,30 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/Javascript" src="script.js"></script>
     <title>Cadastro de Livros</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
 
     <script>
-        $(document).ready(function(){
-            $('#idTelefone').inputmask('(99) 99999-9999')
-        })
-    </script>
+        function validar() {
+            $(document).ready(function(){
+                $('#idTelefone').inputmask('(99) 99999-9999')
+            })
+        }
 
-    <script>
         $(document).ready(function(){
             $('#idCPF').inputmask('999.999.999-99')
         })
-    </script>
 
-    <script>
         $(document).ready(function(){
             $('#idCEP').inputmask('99999-999')
         })
-    </script>
 
-    <script>
         function validarEmail() {
             var email = document.getElementById("idEmail").value
             if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
@@ -35,18 +32,16 @@
                 return
             }
         }
-    </script>
 
-    <script>
         var nome = getElementById("idNome").value
         var cpf = getElementById("idCPF").value
         var email = getElementById("idEmail").value
         var telefone = getElementById("idTelefone").value
         var cep = getElementById("idCEP").value
 
-        alet
-    </script>
+        window.alert("Seu nome é: " + nome + "Seu CPF é: " + cpf + "Seu email é: " + email + "Seu telefone é: " + telefone + "Seu CEP é: " + cep + ".");
 
+    </script>
 
 </head>
 <body>
@@ -64,7 +59,7 @@
     </header>
     <main>
         <section class="container">
-            <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            <form>
                 <fieldset>
                     <legend>Cadastro de Livros</legend>
     
