@@ -37,6 +37,16 @@
         }
     </script>
 
+    <script>
+        var nome = getElementById("idNome").value
+        var cpf = getElementById("idCPF").value
+        var email = getElementById("idEmail").value
+        var telefone = getElementById("idTelefone").value
+        var cep = getElementById("idCEP").value
+
+        alet
+    </script>
+
 
 </head>
 <body>
@@ -54,32 +64,32 @@
     </header>
     <main>
         <section class="container">
-            <form>
+            <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
                 <fieldset>
                     <legend>Cadastro de Livros</legend>
     
                     <div class="input-container">
                         <label for="Nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                        <input type="text" name="nome" id="idNome" placeholder="Seu nome" required>
                     </div>
     
                     <div class="input-container">
-                        <label for="autor">CPF</label>
+                        <label for="cpf">CPF</label>
                         <input type="text" name="CPF" id="idCPF" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
                     </div>
     
                     <div class="input-container">
-                        <label for="editora">Email</label>
+                        <label for="email">Email</label>
                         <input type="text" name="email" id="idEmail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
     
                     <div class="input-container">
-                        <label for="dtpublicacao">Telefone</label>
+                        <label for="telefone">Telefone</label>
                         <input type="text" name="telefone" id="idTelefone" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" required>
                     </div>
     
                     <div class="input-container">
-                        <label for="Nome">CEP</label>
+                        <label for="cep">CEP</label>
                         <input type="text" name="CEP" id="idCEP" placeholder="CEP" pattern= "\d{5}-?\d{3}" required>
                     </div>
 
@@ -88,6 +98,7 @@
                 </fieldset>
             </form>
         </section>
+
     </main>
 </body>
 </html>
