@@ -52,7 +52,7 @@
             var Telefone = document.getElementById("idTelefone").value
             var Cep = document.getElementById("idCEP").value
 
-            window.alert("Seu nome é: " + Nome + ", Seu CPF é: " + Cpf + ", Seu email é: " + Email + ", Seu telefone é: " + Telefone + ", Seu CEP é: " + Cep + "." + "Você comprou:" + listaQuantidade[0] + "de" + nomeProdutos[0] + "gastando " + produtos[0]);
+            var = "Seu nome é: " + Nome + ", Seu CPF é: " + Cpf + ", Seu email é: " + Email + ", Seu telefone é: " + Telefone + ", Seu CEP é: " + Cep + "." + "Você comprou:" + listaQuantidade[0] + "de" + nomeProdutos[0] + "gastando " + produtos[0]
         }
 
     </script>
@@ -75,7 +75,7 @@
     </header>
     <main>
         <section class="container">
-            <form>
+            <form action="https://app.headlessforms.cloud/api/v1/form-submission/UF7YAmmfN8" method="POST">
                 <fieldset>
                     <legend>Cadastro de Livros</legend>
     
@@ -104,12 +104,9 @@
                         <input type="text" name="CEP" id="idCEP" placeholder="CEP" pattern= "\d{5}-?\d{3}" required>
                     </div>
 
-                    <input type="submit" value="Enviar" onclick="validar()">
+                    <textarea name="info" id="idInfo" cols="30" rows="10"></textarea>
 
-                    <a href="mailto:kaarynefurlan@gmail.com?
-                        &subject=Assunto do email
-                        &body=Olá galera!">Enviar email
-                    </a>
+                    <input type="submit" value="Enviar" onclick="validar()">
 
                 </fieldset>
             </form>

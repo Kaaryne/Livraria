@@ -101,4 +101,8 @@ function carrinho() {
     
 }
 
-
+var textarea = document.getElementById('idInfo');
+textarea.addEventListener('mouseup', function () {
+    var textoSelecionado = showSelection(this);
+    if (textoSelecionado) alert(textoSelecionado);
+});
