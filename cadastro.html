@@ -42,16 +42,18 @@
         }
 
     </script>
-    
+
     <script>
 
-        var nome = getElementById("idNome").value
-        var cpf = getElementById("idCPF").value
-        var email = getElementById("idEmail").value
-        var telefone = getElementById("idTelefone").value
-        var cep = getElementById("idCEP").value
+        function validar() {  
+            var Nome = document.getElementById("idNome").value
+            var Cpf = document.getElementById("idCPF").value
+            var Email = document.getElementById("idEmail").value
+            var Telefone = document.getElementById("idTelefone").value
+            var Cep = document.getElementById("idCEP").value
 
-        window.alert("Seu nome é: " + nome + "Seu CPF é: " + cpf + "Seu email é: " + email + "Seu telefone é: " + telefone + "Seu CEP é: " + cep + ".");
+            window.alert("Seu nome é: " + Nome + ", Seu CPF é: " + Cpf + ", Seu email é: " + Email + ", Seu telefone é: " + Telefone + ", Seu CEP é: " + Cep + "." + "Você comprou:" );
+        }
 
     </script>
 

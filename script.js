@@ -1,51 +1,87 @@
+var listaQuantidade = []
 var produtos = []
 var totalPagar = 
-var listaQuantidade = []
 
 
-function adicionar1() {
+function Adicionar1() {
     var quantidade = document.getElementById("quantidade1").value
     var total = quantidade * 10
-    listaQuantidade.push(quantidade)
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+    
     produtos.push(total)
     console.log(total);
 }
 
-function adicionar2() {
+function Adicionar2() {
     var quantidade = document.getElementById("quantidade2").value
     var total = quantidade * 20
-    listaQuantidade.push(quantidade)
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
     produtos.push(total)
     console.log(total);
 }
 
-function adicionar3() {
+function Adicionar3() {
     var quantidade = document.getElementById("quantidade3").value
     var total = quantidade * 30
-    listaQuantidade.push(quantidade)
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
     produtos.push(total)
     console.log(total);
 }
 
-function adicionar4() {
+function Adicionar4() {
     var quantidade = document.getElementById("quantidade4").value
     var total = quantidade * 40
-    listaQuantidade.push(quantidade)
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
     produtos.push(total)
     console.log(total);
 }
 
-function adicionar5() {
+function Adicionar5() {
     var quantidade = document.getElementById("quantidade5").value
     var total = quantidade * 50
-    listaQuantidade.push(quantidade)
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
     produtos.push(total)
     console.log(total);
 }
-function adicionar6() {
+function Adicionar6() {
     var quantidade = document.getElementById("quantidade6").value
     var total = quantidade * 60
-    listaQuantidade.push(quantidade)
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
     produtos.push(total)
     console.log(total);
 }
@@ -59,7 +95,7 @@ function carrinho() {
     }
 
     document.write(produtos + "<br>") ;
-    document.write(totalPagar);
+    document.write(totalPagar + "<br>");
     document.write(listaQuantidade);
     
 }
