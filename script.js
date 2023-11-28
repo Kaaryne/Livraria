@@ -95,9 +95,9 @@ function carrinho() {
         totalPagar = totalPagar + parseInt(produtos[i]);
     }
 
-    document.write(produtos + "<br>") ;
-    document.write(totalPagar + "<br>");
-    document.write(listaQuantidade);
-    
+    document.getElementById("idTotal").innerHTML = totalPagar;
+    document.getElementById("pProdutos").innerHTML = produtos;
+    document.getElementById("qProdutos").innerHTML = listaQuantidade;
+
 }
 
