@@ -11,27 +11,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
 
     <script>
-        function validar() {
-            $(document).ready(function(){
-                $('#idTelefone').inputmask('(99) 99999-9999')
-            })
-        }
+
+        $(document).ready(function(){
+            $('#idTelefone').inputmask('(99) 99999-9999')
+        })
+
+    </script>
+
+    <script>  
 
         $(document).ready(function(){
             $('#idCPF').inputmask('999.999.999-99')
         })
 
+    </script>  
+
+    <script>
+
         $(document).ready(function(){
             $('#idCEP').inputmask('99999-999')
         })
 
-        function validarEmail() {
-            var email = document.getElementById("idEmail").value
-            if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-                alert("Email inválido")
-                return
-            }
+    </script>
+
+    <script>
+
+        if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+            alert("Email inválido")
+            return
         }
+
+    </script>
+    
+    <script>
 
         var nome = getElementById("idNome").value
         var cpf = getElementById("idCPF").value
