@@ -1,6 +1,7 @@
 var listaQuantidade = []
 var produtos = []
 var totalPagar = 
+var nomeProdutos = [livro1, livro2, livro3, livro4, livro5, livro6]
 
 
 function Adicionar1() {
