@@ -1,7 +1,7 @@
+var nomeProdutos = ["livro1", "livro2", "livro3", "livro4", "livro5", "livro6"]
 var listaQuantidade = []
 var produtos = []
-var totalPagar = 
-var nomeProdutos = [livro1, livro2, livro3, livro4, livro5, livro6]
+var totalPagar = 0
 
 
 function add1() {
@@ -14,7 +14,7 @@ function add1() {
         listaQuantidade.push(quantidade)
     }
     
-    produtos.push(total)
+    produtos.push(total);
     console.log(total);
 }
 
@@ -28,7 +28,7 @@ function add2() {
         listaQuantidade.push(quantidade)
     }
 
-    produtos.push(total)
+    produtos.push(total);
     console.log(total);
 }
 
@@ -42,7 +42,7 @@ function add3() {
         listaQuantidade.push(quantidade)
     }
 
-    produtos.push(total)
+    produtos.push(total);
     console.log(total);
 }
 
@@ -56,7 +56,7 @@ function add4() {
         listaQuantidade.push(quantidade)
     }
 
-    produtos.push(total)
+    produtos.push(total);
     console.log(total);
 }
 
@@ -70,7 +70,7 @@ function add5() {
         listaQuantidade.push(quantidade)
     }
 
-    produtos.push(total)
+    produtos.push(total);
     console.log(total);
 }
 function add6() {
@@ -83,7 +83,7 @@ function add6() {
         listaQuantidade.push(quantidade)
     }
 
-    produtos.push(total)
+    produtos.push(total);
     console.log(total);
 }
 
