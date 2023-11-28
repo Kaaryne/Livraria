@@ -28,7 +28,7 @@
                     <p>Autor: Sarah J. Maas</p>
                     <p class="preco">R$10,00</p>
                     <button onclick="add1()">Comprar</button>
-                    <input type="number" id="quantidade1" class="quantidade" min="0">
+                    <input type="number" id="quantidade1" class="quantidade" min="0" value="0">
                 </div>
 
                 <div class="card">
@@ -37,7 +37,7 @@
                     <p>Autor: Sarah J. Maas</p>
                     <p class="preco">R$20,00</p>
                     <button onclick= "add2()">Comprar</button>
-                    <input type="number" id="quantidade2" class="quantidade" min="0">
+                    <input type="number" id="quantidade2" class="quantidade" min="0" value="0">
                 </div>
 
                 <div class="card">
@@ -46,7 +46,7 @@
                     <p>Autor: Victoria Aveyard</p>
                     <p class="preco">R$30,00</p>
                     <button onclick= "add3()">Comprar</button>
-                    <input type="number" id="quantidade3" class="quantidade" min="0">
+                    <input type="number" id="quantidade3" class="quantidade" min="0" value="0">
                 </div>
 
                 <div class="card">
@@ -55,7 +55,7 @@
                     <p>Autor: Matt Haig</p>
                     <p class="preco">R$40,00</p>
                     <button onclick= "add4()">Comprar</button>
-                    <input type="number" id="quantidade4" class="quantidade" min="0">
+                    <input type="number" id="quantidade4" class="quantidade" min="0" value="0">
                 </div>
 
                 <div class="card">
@@ -64,7 +64,7 @@
                     <p>Autor: Colleen Roover</p>
                     <p class="preco">R$50,00</p>
                     <button onclick= "add5()">Comprar</button>
-                    <input type="number" id="quantidade5" class="quantidade" min="0">
+                    <input type="number" id="quantidade5" class="quantidade" min="0" value="0">
                 </div>
 
                 <div class="card">
@@ -73,7 +73,7 @@
                     <p>Autor: Colleen Roover</p>
                     <p class="preco">R$60,00</p>
                     <button onclick= "add6()">Comprar</button>
-                    <input type="number" id="quantidade6" class="quantidade" min="0">
+                    <input type="number" id="quantidade6" class="quantidade" min="0" value="0">
                 </div>
 
                 <div class="adicione">
@@ -82,9 +82,22 @@
 
             </section>
 
+            <label for="total">Total a Pagar:</label>
             <div id="idTotal"></div>
+            <br>
+            <label for="preço">Preço do Conjunto:</label>
             <div id="pProdutos"></div>
+            <br>
+            <label for="quantidade">Quantidade de cada produto:</label>
             <div id="qProdutos"></div>
+
+            <div class="finalizar">
+                <a href="cadastro.html">Finalizar Compra</a>
+            </div>
+
+            <div class="remover">
+                <button onclick="remover()">Remover produto</button>
+            </div>
         </main>
         <footer>
             <p>&copy; 2023 Livraria Fantástica | Criado por Amanda Prigol, Karyne Furlan e Kayla Flach.</p>

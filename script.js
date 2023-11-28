@@ -98,6 +98,61 @@ function carrinho() {
     document.getElementById("idTotal").innerHTML = totalPagar;
     document.getElementById("pProdutos").innerHTML = produtos;
     document.getElementById("qProdutos").innerHTML = listaQuantidade;
-
 }
 
+function remover() {
+    var remoProduto = prompt("Qual produto deseja remover?")
+    var remoQuantidade = prompt("Quantos destes produtos deseja remover?")
+
+    if (remoProduto = 1) {
+        produtos[0] - (10 * remoQuantidade) == produtos[0]
+
+        document.getElementById("idTotal").innerHTML = totalPagar;
+        document.getElementById("pProdutos").innerHTML = produtos;
+        document.getElementById("qProdutos").innerHTML = listaQuantidade;
+
+    }
+
+    if (remoProduto = 2) {
+        produtos[1] - (20 * remoQuantidade) == produtos[1]
+
+        document.getElementById("idTotal").innerHTML = totalPagar;
+        document.getElementById("pProdutos").innerHTML = produtos;
+        document.getElementById("qProdutos").innerHTML = listaQuantidade;
+
+    }
+
+    if (remoProduto = 3) {
+        produtos[2] - (30 * remoQuantidade) == produtos[2]
+
+        document.getElementById("idTotal").innerHTML = totalPagar;
+        document.getElementById("pProdutos").innerHTML = produtos;
+        document.getElementById("qProdutos").innerHTML = listaQuantidade;
+
+    }
+
+    if (remoProduto = 4) {
+        produtos[3] - (40 * remoQuantidade) == produtos[3]
+
+        document.getElementById("idTotal").innerHTML = totalPagar;
+        document.getElementById("pProdutos").innerHTML = produtos;
+        document.getElementById("qProdutos").innerHTML = listaQuantidade;
+
+    }
+
+    if (remoProduto = 5) {
+        produtos[4] - (50 * remoQuantidade) == produtos[4]
+
+        document.getElementById("idTotal").innerHTML = totalPagar;
+        document.getElementById("pProdutos").innerHTML = produtos;
+        document.getElementById("qProdutos").innerHTML = listaQuantidade;
+    }
+
+    if (remoProduto = 6) {
+        produtos[5] - (60 * remoQuantidade) == produtos[5]
+
+        document.getElementById("idTotal").innerHTML = totalPagar;
+        document.getElementById("pProdutos").innerHTML = produtos;
+        document.getElementById("qProdutos").innerHTML = listaQuantidade;
+    }
+}
