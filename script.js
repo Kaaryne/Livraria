@@ -1,3 +1,91 @@
+var listaQuantidade = []
+var produtos = []
+var totalPagar = 
+var nomeProdutos = [livro1, livro2, livro3, livro4, livro5, livro6]
+
+
+function Adicionar1() {
+    var quantidade = document.getElementById("quantidade1").value
+    var total = quantidade * 10
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+    
+    produtos.push(total)
+    console.log(total);
+}
+
+function Adicionar2() {
+    var quantidade = document.getElementById("quantidade2").value
+    var total = quantidade * 20
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
+    produtos.push(total)
+    console.log(total);
+}
+
+function Adicionar3() {
+    var quantidade = document.getElementById("quantidade3").value
+    var total = quantidade * 30
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
+    produtos.push(total)
+    console.log(total);
+}
+
+function Adicionar4() {
+    var quantidade = document.getElementById("quantidade4").value
+    var total = quantidade * 40
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
+    produtos.push(total)
+    console.log(total);
+}
+
+function Adicionar5() {
+    var quantidade = document.getElementById("quantidade5").value
+    var total = quantidade * 50
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
+    produtos.push(total)
+    console.log(total);
+}
+function Adicionar6() {
+    var quantidade = document.getElementById("quantidade6").value
+    var total = quantidade * 60
+
+    if(quantidade == 0){
+        listaQuantidade.push(0)
+    }else{
+        listaQuantidade.push(quantidade)
+    }
+
+    produtos.push(total)
+    console.log(total);
+}
 
 var totalPagar = 0
 
