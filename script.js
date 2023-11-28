@@ -4,7 +4,7 @@ var totalPagar =
 var nomeProdutos = [livro1, livro2, livro3, livro4, livro5, livro6]
 
 
-function Adicionar1() {
+function add1() {
     var quantidade = document.getElementById("quantidade1").value
     var total = quantidade * 10
 
@@ -18,7 +18,7 @@ function Adicionar1() {
     console.log(total);
 }
 
-function Adicionar2() {
+function add2() {
     var quantidade = document.getElementById("quantidade2").value
     var total = quantidade * 20
 
@@ -32,7 +32,7 @@ function Adicionar2() {
     console.log(total);
 }
 
-function Adicionar3() {
+function add3() {
     var quantidade = document.getElementById("quantidade3").value
     var total = quantidade * 30
 
@@ -46,7 +46,7 @@ function Adicionar3() {
     console.log(total);
 }
 
-function Adicionar4() {
+function add4() {
     var quantidade = document.getElementById("quantidade4").value
     var total = quantidade * 40
 
@@ -60,7 +60,7 @@ function Adicionar4() {
     console.log(total);
 }
 
-function Adicionar5() {
+function add5() {
     var quantidade = document.getElementById("quantidade5").value
     var total = quantidade * 50
 
@@ -73,7 +73,7 @@ function Adicionar5() {
     produtos.push(total)
     console.log(total);
 }
-function Adicionar6() {
+function add6() {
     var quantidade = document.getElementById("quantidade6").value
     var total = quantidade * 60
 
